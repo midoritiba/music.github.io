@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "new tegomin";
+    src: url(./New_Tegomin/NewTegomin-Regular.ttf)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    margin-top: 0.8rem;
+    margin-left: 58%;
+}
+
+h1 a{
+    font-size: 4rem;
+    font-family: "new tegomin";
+    color: rgb(36, 56, 15);
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+header {
+    display: inline-block;
+    
+}
+
+nav {
+    opacity: 50%;
+    background-color: black;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    display: block;
+    background-attachment: fixed;
+}
+
+nav ul{
+    padding-inline-start: 2rem;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-family: "new tegomin";
+    letter-spacing: 7px;
+    font-size: 1rem;
+    margin-right:3rem;
+    margin-left: 3rem;
+    padding-left: 1.71rem;
+    padding-right: 1.66rem;
+    display: inline-block;
+    color: rgb(182, 198, 201);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(86, 133, 37);
+}
+
+#marker{
+    background-color: rgb(34, 34, 34);
+    border-radius: 0.2rem;
+    color: rgb(180, 75, 14);
+}
+
+body{
+    background-image: url('./images/Background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.textbox {
+    background-color: rgba(252, 252, 252, 0.658);
+    opacity: 90%;
+    margin-top: 0.7rem;
+    margin-left: 32%;
+    display: inline-block;
+    padding-right: 0.5rem;
+    width: 67%;
+    height: 80%;
+    border-radius: 0.5rem;
+
+}
+p{
+    font-size:  0.95rem;
+    font-family: 'new tegomin';
+    color: black;
+    margin: 0.8rem;
+}  
+
+strong {
+    color:rgb(36, 56, 15);
+}
+
+.youtube1{
+    background-color: black;
+    margin-top: 0.7rem;
+    margin-right: 2.3rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    float: right;
+}
+
+.youtube2{
+    margin-top: 0.5rem;
+    margin-left: 51.7%;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.photos1row{
+    width: 50%;
+    margin-top: 0.7rem;
+    display: inline-block;
+    margin-left: 47%;
+    margin-right: 2rem;
+    background-color: black;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+
+#photo1{
+    margin-left: 3rem;
+    width: 28%;
+}
+
+#photo2{
+    width: 28.4%;
+}
+
+#photo3{
+    width: 28.4%;
+}
+.photos2row{
+    width: 50%;
+    margin-top: 0.2rem;
+    display: inline-block;
+    margin-left: 47%;
+    margin-right: 2rem;
+    background-color: black;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+
+#photo4{
+    padding-left: 3rem;
+    width: 35.4%;
+}
+
+
+#photo5{
+    width: 28%;
+}
+
+#photo6{
+    width: 28%;
+    height: 20%;
+}
+
+#photo7{
+    width: 28%;
+    margin-left: 3rem;
+}
+
+#photo8{
+    width: 28%;
+    height: 20%;
+}
+
+#photo9{
+    width: 28%;
+    height: 20%;
+}
+
+#socialm {
+    margin-top: 0.5rem;
+    margin-left: 84%
+  }
+  
+  .icon-3d {
+    padding: 0.8rem;
+    color: rgb(172, 81, 6);
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 0.5rem;
+    border: 1px solid #ccc; 
+    border-radius: 0.5rem; 
+    box-sizing: border-box;
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem; 
+  }
+  
+  input[type=submit] {
+    background-color:rgb(172, 81, 6);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c07126;
+  }
+  
+  .container {
+    opacity: 70%;
+    border-radius: 0.5rem;
+    background-color: #f2f2f2;
+    padding: 0.5rem;
+    width: 36%;
+    height: 50%;
+    margin-left: 59.5%;
+    margin-top: 0.5rem;
+    font-family: "new tegomin";
+  }
+
+footer{
+    position:absolute;
+    bottom: 0;
+    margin-bottom: 0.2rem;
+    width:100%;
+    opacity: 70%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer_text {
+    font-size: 12px;
+    display: inline-block;
+    color: black;
+    opacity: 50%;
+  }
